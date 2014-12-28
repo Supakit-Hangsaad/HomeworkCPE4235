@@ -22,6 +22,11 @@ public class SeparateString {
         str = scan.nextLine();
         System.out.println("Length = " +str.length());
         
+        //Answer
+        String input = "wanchana-kunkhum-1993";
+        String split[] = input.split("-");
+        System.out.println(split[0] + " ," + split[1] + " ," +split[2]);
+        //28th Dec 2014
         last3 = str.substring(str.length()-3,str.length());
         System.out.println("The last 3 char : " + last3);
         

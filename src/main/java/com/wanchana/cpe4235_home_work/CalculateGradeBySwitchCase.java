@@ -37,7 +37,6 @@ public class CalculateGradeBySwitchCase {
             case 10:
                 System.out.println("You got grade A");
                 break;
-                
             default:
                 System.out.println("You got grade F");
                 break;
