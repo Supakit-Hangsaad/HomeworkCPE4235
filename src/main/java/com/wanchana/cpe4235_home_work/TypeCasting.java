@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author wanchana
  */
-public class Test1 {
+public class TypeCasting {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         float input;

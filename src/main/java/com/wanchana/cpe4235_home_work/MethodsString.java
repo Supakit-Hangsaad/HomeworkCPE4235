@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author wanchana
  */
-public class Test5 {
+public class MethodsString {
     public static void main(String[] args) {
         String concade = "",number = "";
         String str,last3;

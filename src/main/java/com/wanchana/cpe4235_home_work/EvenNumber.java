@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author wanchana
  */
-public class Test3 {
+public class EvenNumber {
     public static void main(String[] args) {
         int number,sum = 0;
         Scanner scan = new Scanner(System.in);

@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author wanchana
  */
-public class Test2 {
+public class CalculateGradeBySwitchCase {
     public static void main(String[] args) {
         int score;
         Scanner scan = new Scanner(System.in);

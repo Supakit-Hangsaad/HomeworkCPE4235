@@ -13,7 +13,7 @@ import java.util.Scanner;
  *
  * @author wanchana
  */
-public class Test4 {
+public class ArraysAndBubleSort {
     public static void main(String[] args) {
         int number[] = new int[5];
         int tmp;
