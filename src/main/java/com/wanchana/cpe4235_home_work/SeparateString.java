@@ -11,9 +11,11 @@ import java.util.Scanner;
  *
  * @author wanchana
  */
-public class MethodsString {
+public class SeparateString {
     public static void main(String[] args) {
         String concade = "",number = "";
+        
+        
         String str,last3;
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter Sting : ");
