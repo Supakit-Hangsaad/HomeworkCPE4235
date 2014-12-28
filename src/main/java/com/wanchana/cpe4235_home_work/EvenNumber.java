@@ -30,18 +30,12 @@ public class EvenNumber {
         }
         System.out.println();
         
-        System.out.print("The number that devide by 3 are : ");
-        for(int k=1;k<=number;k++){
-            if(k%3 == 0){
-                System.out.print(k + " ");
-                
-                
-            }
-            else{
-                continue;
-            }
-        }
-        System.out.println("\n" + sum);
+        System.out.println("The number that devide by 3 are : " + sum);
+//        for(int k=1;k<=number;k++){
+//            if(k%3 == 0){
+//                System.out.print(k + " ");
+//            }
+//        }
     }
     
 }
