@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.wanchana.cpe4235_home_work;
+package com.wanchana.chapter2;
 
 import java.util.Scanner;
 
