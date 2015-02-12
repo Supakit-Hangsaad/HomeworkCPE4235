@@ -11,6 +11,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.net.URL;
+import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -71,14 +72,17 @@ public class WebReader {
     
     public Set<String> getLinks() throws IOException{ // return links set
         
-        String pattern = "^(https?|//)(://)?[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
+        Set<String> set = new HashSet<>();
+        String pattern = "href=\"(.*?)\""; /*"([^\\s]+(\\.(?i)(jpg|png|gif|bmp))$)";*/
         Pattern complied = Pattern.compile(pattern);
+        String html = getHtml();
         Matcher matcher = complied.matcher(getHtml());
         
         while(matcher.find()){
-            System.out.println("link = " + matcher.group(1)); /* group(1) mean
-            return value that it finded in 1 group was defined String pattern in line 74*/
+            //System.out.println("link = " + matcher.group(1)); /* group(1) mean
+            //return value that it finded in 1 group was defined String pattern in line 74*/
+            set.add(matcher.group());
         }
-        return null;        
+        return set;        
     }
 }
