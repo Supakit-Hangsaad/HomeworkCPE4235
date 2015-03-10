@@ -1,12 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-import com.wanchana.chapter4.IP;
-import com.wanchana.chapter4.OP;
-import com.wanchana.chapter4.YesNo;
+
+import com.supakit.chapter4.IP;
+import com.supakit.chapter4.OP;
+import com.supakit.chapter4.YesNo;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -14,10 +10,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author wanchana
- */
+
 public class SumAveragePatientT {
 
     private int sum(IP ip){
@@ -40,8 +33,7 @@ public class SumAveragePatientT {
         ip.setRole4(YesNo.NO);
         ip.setRole5(YesNo.YES);
         
-        assertEquals(3, sum(ip)); //result(output), value(input)
-                                  //click right and choose Test File
+        assertEquals(3, sum(ip)); 
     }
     
     @Test

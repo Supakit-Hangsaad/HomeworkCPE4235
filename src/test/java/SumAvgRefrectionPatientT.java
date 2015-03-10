@@ -4,9 +4,9 @@
  * and open the template in the editor.
  */
 
-import com.wanchana.chapter4.IP;
-import com.wanchana.chapter4.Patient;
-import com.wanchana.chapter4.YesNo;
+import com.supakit.chapter4.IP;
+import com.supakit.chapter4.Patient;
+import com.supakit.chapter4.YesNo;
 import java.lang.reflect.Method;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -15,14 +15,10 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-/**
- *
- * @author wanchana
- */
+
 public class SumAvgRefrectionPatientT {
     
-    //  avg = sum/n
-    
+   
     private float average(Patient patient) throws Exception{
         
         return (float)sum(patient) / (float)count(patient);

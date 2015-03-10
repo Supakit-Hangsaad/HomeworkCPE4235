@@ -3,14 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.wanchana.chapter2;
+package com.supakit.chapter2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author wanchana
- */
+
 public class SeparateString {
     public static void main(String[] args) {
         String concade = "",number = "";
@@ -23,7 +20,7 @@ public class SeparateString {
         System.out.println("Length = " +str.length());
         
         //Answer
-        String input = "wanchana-kunkhum-1993";
+        String input = "supakit";
         String split[] = input.split("-");
         System.out.println(split[0] + " ," + split[1] + " ," +split[2]);
         //28th Dec 2014
